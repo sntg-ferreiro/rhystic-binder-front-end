@@ -52,7 +52,7 @@ export const MainNavbar = () => {
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <NavLink to="" className="flex items-center space-x-3 rtl:space-x-reverse" end>
-            <img src="https://svgmix.com/uploads/nimble-tiny-flat/a96532-book.svg" className="h-8" alt="Logo" />
+            <img src="src\assets\book.svg" className="h-8" alt="Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Rhystic Binder</span>
           </NavLink>
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">

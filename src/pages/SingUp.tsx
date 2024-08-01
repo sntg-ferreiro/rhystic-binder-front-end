@@ -5,7 +5,7 @@ interface SingUpProps {
 }
  
 const SingUp: FunctionComponent<SingUpProps> = () => {
-    return ( <p>SingUp</p> );
+    return ( <p>Registrarse</p> );
 }
  
 export default SingUp;

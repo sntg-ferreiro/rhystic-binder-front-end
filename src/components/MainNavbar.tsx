@@ -30,7 +30,7 @@ export const MainNavbar = () => {
         to="login"
         className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
       >
-        Login
+        Iniciar Sesion
       </NavLink>
     </li>
       <li>
@@ -38,7 +38,7 @@ export const MainNavbar = () => {
           to="signup"
           className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
         >
-          Sing Up
+          Registrarse
         </NavLink>
       </li>
     </ul>;

@@ -1,9 +1,12 @@
 import { NavLink } from "react-router-dom";
 import store from "../store/configureStore";
+import users from "../../public/data/cartas_ejemplo.json"
 
 
 export const MainNavbar = () => {
   const { isLoggedIn, } = store.getState().userAuth
+  //const isLoggedIn = true;
+  const userLoggedIn = users[0];
 
 
   const content = isLoggedIn ?
@@ -22,6 +25,14 @@ export const MainNavbar = () => {
           className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
         >
           Offers
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="user/:userid/profile"
+          className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
+        >
+          <img src={userLoggedIn.avatar_img} className="w-7 h-7 rounded-full mr-2" alt="Logo" />
         </NavLink>
       </li>
     </ul>
@@ -53,15 +64,8 @@ export const MainNavbar = () => {
             <img src="src\assets\book.svg" className="h-8" alt="Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Rhystic Binder</span>
           </NavLink>
-          <div className="hidden w-full md:block md:w-auto" id="navbar-default">0
+          <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             {content}
-            {isLoggedIn && <NavLink
-              to="user/:userid/profile"
-              className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500"
-            >
-              <img src="" className="h-8" alt="Logo" />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">User Profile</span>
-            </NavLink>}
           </div>
         </div>
       </nav>

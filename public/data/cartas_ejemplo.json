@@ -1,62 +1,58 @@
 [
     {
-        "uuid": "1",
-        "name": "Tymna the Weaver",
-        "img": "https://cards.scryfall.io/normal/front/b/c/bc7cbe9b-324e-42b8-94e2-36e91cb32163.jpg?1644853048",
-        "date_published": "Aug 17",
-        "user": {
-            "name": "The_SuperVergas_9000",
-            "avatar_img": "https://media.newyorker.com/photos/5909527c1c7a8e33fb38a864/master/pass/Man_of_Steel-580.jpeg"
-        }
+        "name": "The_SuperVergas_9000",
+        "avatar_img": "https://media.newyorker.com/photos/5909527c1c7a8e33fb38a864/master/pass/Man_of_Steel-580.jpeg",
+        "login": {
+            "uuid":"abc123",
+            "email":"supervergas9000@gmail.com"
+        },
+        "cards": [
+            {
+                "uuid": "1",
+                "name": "Tymna the Weaver",
+                "img": "https://cards.scryfall.io/normal/front/b/c/bc7cbe9b-324e-42b8-94e2-36e91cb32163.jpg?1644853048",
+                "date_published": "Aug 17"
+            },
+            {
+                "uuid": "2",
+                "name": "Toski, Bearer of Secrets",
+                "img": "https://cards.scryfall.io/normal/front/e/8/e82e61d1-488d-4627-a54c-d8496a967814.jpg?1706240948",
+                "date_published": "Jun 7"
+            },
+            {
+                "uuid": "6",
+                "name": "Ingenious Artillerist",
+                "img": "https://cards.scryfall.io/normal/front/1/d/1d8dd6c3-3699-4dd1-a019-fdb569eaf722.jpg?1674136617",
+                "date_published": "Sep 22"
+            }
+        ]
     },
     {
-        "uuid": "2",
-        "name": "Toski, Bearer of Secrets",
-        "img": "https://cards.scryfall.io/normal/front/e/8/e82e61d1-488d-4627-a54c-d8496a967814.jpg?1706240948",
-        "date_published": "Jun 7",
-        "user": {
-            "name": "The_SuperVergas_9000",
-            "avatar_img": "https://media.newyorker.com/photos/5909527c1c7a8e33fb38a864/master/pass/Man_of_Steel-580.jpeg"
-        }
-    },
-    {
-        "uuid": "3",
-        "name": "Narset, Enlightened Exile",
-        "img": "https://cards.scryfall.io/normal/front/8/2/827ecc44-0b00-4515-8953-bc91fa03705a.jpg?1684340776",
-        "date_published": "Sep 21",
-        "user": {
-            "name": "ManBat678",
-            "avatar_img": "https://i.guim.co.uk/img/media/c8c00617b792d1d53f2d2b318820d5758dc61551/231_0_2968_1782/master/2968.jpg?width=1200&quality=85&auto=format&fit=max&s=99459057199a54c97181e29b0947b5fb"
-        }
-    },
-    {
-        "uuid": "4",
-        "name": "Archivist of Oghma",
-        "img": "https://cards.scryfall.io/normal/front/f/6/f6589e02-8c84-4069-88d1-ebcc8520cae1.jpg?1674134875",
-        "date_published": "Feb 30",
-        "user": {
-            "name": "ManBat678",
-            "avatar_img": "https://i.guim.co.uk/img/media/c8c00617b792d1d53f2d2b318820d5758dc61551/231_0_2968_1782/master/2968.jpg?width=1200&quality=85&auto=format&fit=max&s=99459057199a54c97181e29b0947b5fb"
-        }
-    },
-    {
-        "uuid": "5",
-        "name": "Tori D'Avenant, Fury Rider",
-        "img": "https://cards.scryfall.io/normal/front/9/c/9c873c5b-61f6-49b9-8993-2d5e9823de62.jpg?1673308121",
-        "date_published": "Jan 21",
-        "user": {
-            "name": "ManBat678",
-            "avatar_img": "https://i.guim.co.uk/img/media/c8c00617b792d1d53f2d2b318820d5758dc61551/231_0_2968_1782/master/2968.jpg?width=1200&quality=85&auto=format&fit=max&s=99459057199a54c97181e29b0947b5fb"
-        }
-    },
-    {
-        "uuid": "6",
-        "name": "Ingenious Artillerist",
-        "img": "https://cards.scryfall.io/normal/front/1/d/1d8dd6c3-3699-4dd1-a019-fdb569eaf722.jpg?1674136617",
-        "date_published": "Sep 22",
-        "user": {
-            "name": "The_SuperVergas_9000",
-            "avatar_img": "https://media.newyorker.com/photos/5909527c1c7a8e33fb38a864/master/pass/Man_of_Steel-580.jpeg"
-        }
+        "name": "ManBat678",
+        "avatar_img": "https://i.guim.co.uk/img/media/c8c00617b792d1d53f2d2b318820d5758dc61551/231_0_2968_1782/master/2968.jpg?width=1200&quality=85&auto=format&fit=max&s=99459057199a54c97181e29b0947b5fb",
+        "login": {
+            "uuid":"abc123",
+            "email":"man_bat_678_0991@gmail.com"
+        },
+        "cards": [
+            {
+                "uuid": "3",
+                "name": "Narset, Enlightened Exile",
+                "img": "https://cards.scryfall.io/normal/front/8/2/827ecc44-0b00-4515-8953-bc91fa03705a.jpg?1684340776",
+                "date_published": "Sep 21"
+            },
+            {
+                "uuid": "4",
+                "name": "Archivist of Oghma",
+                "img": "https://cards.scryfall.io/normal/front/f/6/f6589e02-8c84-4069-88d1-ebcc8520cae1.jpg?1674134875",
+                "date_published": "Feb 30"
+            },
+            {
+                "uuid": "5",
+                "name": "Tori D'Avenant, Fury Rider",
+                "img": "https://cards.scryfall.io/normal/front/9/c/9c873c5b-61f6-49b9-8993-2d5e9823de62.jpg?1673308121",
+                "date_published": "Jan 21"
+            }
+        ]
     }
 ]

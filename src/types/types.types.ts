@@ -1,27 +1,27 @@
-export interface Name {
-    first: string;
-    last: string;
-}
-
-export interface Login {
-    uuid: string;
-}
-
-export interface Users {
-    name: Name;
+export type user = {
+    name: string;
+    avatar_img: string;
     login: Login;
-    email: string;
+    cards: card[];
 }
 
 export type card = {
     name: string,
     img: string,
     uuid: string,
-    user: user,
     date_published: string
 }
 
-export type user = {
+export interface Login {
+    uuid: string;
+    email: string;
+}
+
+export type CardDisplay = {
     name: string,
-    avatar_img: string
+    img: string,
+    uuid: string,
+    date_published: string,
+    user_avatar_img: string,
+    user_name: string;
 }
